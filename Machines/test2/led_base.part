@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "cfac5837b4846bbcdfbf8a8b",
+    "documentMicroversion": "a3d1d035852b73936adfadab",
+    "elementId": "2821d99f1eec6d83d6015338",
+    "fullConfiguration": "default",
+    "id": "MI1v7NWRkK54K5e3R",
+    "isStandardContent": false,
+    "name": "led base <1>",
+    "partId": "RGCD",
+    "suppressed": false,
+    "type": "Part"
+}

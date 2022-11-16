@@ -1,0 +1,53 @@
+<sdf version="1.6">
+<model name="onshape">
+<link name="base">
+<frame name="base_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="base_0_led_base_visual">
+<pose>-0.703866 0.219658 -1.38778e-16 -1.40931e-32 1.5708 0</pose>
+<geometry>
+<mesh><uri>file://led_base.stl</uri></mesh>
+</geometry>
+<material><ambient>0.65098 0.486275 0.0196078 1</ambient><diffuse>0.65098 0.486275 0.0196078 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="base_0_led_base_visual">
+<pose>-0.703866 0.219658 -1.38778e-16 -1.40931e-32 1.5708 0</pose>
+<geometry>
+<mesh><uri>file://test2//led_base.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="base_1_base_visual">
+<pose>0 -6.93889e-18 -0.299974 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://base.stl</uri></mesh>
+</geometry>
+<material><ambient>0.647059 0.647059 0.647059 1</ambient><diffuse>0.647059 0.647059 0.647059 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="base_1_base_visual">
+<pose>0 -6.93889e-18 -0.299974 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://test2//base.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="base_2_kamera_visual">
+<pose>-2.15175e-07 -0.37778 -0.799974 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://kamera.stl</uri></mesh>
+</geometry>
+<material><ambient>0.341176 0.776471 0.741176 1</ambient><diffuse>0.341176 0.776471 0.741176 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="base_2_kamera_visual">
+<pose>-2.15175e-07 -0.37778 -0.799974 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://test2//kamera.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="base_frame">0 0 0 0 0 0</pose>
+<mass>0</mass>
+<inertia><ixx>0</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0</iyy><iyz>0</iyz><izz>0</izz></inertia>
+</inertial>
+</link>
+
+
+</model>
+</sdf>

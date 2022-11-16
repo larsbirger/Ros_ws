@@ -1,0 +1,65 @@
+<robot name="onshape">
+<link name="base">
+<visual>
+<origin xyz="-0.703866 0.219658 -1.38778e-16" rpy="-1.40931e-32 1.5708 0" />
+<geometry>
+<mesh filename="package:///led_base.stl"/>
+</geometry>
+<material name="led_base_material">
+<color rgba="0.65098 0.486275 0.0196078 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.703866 0.219658 -1.38778e-16" rpy="-1.40931e-32 1.5708 0" />
+<geometry>
+<mesh filename="package:///led_base.stl"/>
+</geometry>
+<material name="led_base_material">
+<color rgba="0.65098 0.486275 0.0196078 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 -6.93889e-18 -0.299974" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0.647059 0.647059 0.647059 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 -6.93889e-18 -0.299974" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0.647059 0.647059 0.647059 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-2.15175e-07 -0.37778 -0.799974" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///kamera.stl"/>
+</geometry>
+<material name="kamera_material">
+<color rgba="0.341176 0.776471 0.741176 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-2.15175e-07 -0.37778 -0.799974" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///kamera.stl"/>
+</geometry>
+<material name="kamera_material">
+<color rgba="0.341176 0.776471 0.741176 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+
+</robot>
