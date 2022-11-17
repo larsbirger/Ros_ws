@@ -1,0 +1,5 @@
+source;share/semesteroppgave/local_setup.bash
+source;share/semesteroppgave/local_setup.dsv
+source;share/semesteroppgave/local_setup.ps1
+source;share/semesteroppgave/local_setup.sh
+source;share/semesteroppgave/local_setup.zsh
