@@ -20,6 +20,3 @@ en robot modell er beskrevet med URDF (Universal Robot Description File).
  - [intro til URDF filer](https://articulatedrobotics.xyz/ready-for-ros-7-urdf/)
 
  - [refferansedokumentasjon til URDF syntax](http://wiki.ros.org/urdf/XML)
-
-git config --global user.email "larsbirger.bergmaal@gmail.com"
-git config --global user.name "Lars Birger Bergmål"
