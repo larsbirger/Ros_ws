@@ -1,0 +1,17 @@
+<<?xml version="1.0"?>
+<<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test-bot">
+    <<link name="boat">
+        <visual>
+            
+        </visual>
+        <collision>
+            
+        </collision>
+        <inertial>
+            <mass value="27.0"/>
+        </inertial>
+        <parent link="parent_link"/>
+        <child link="child_link"/>
+        
+    </link>
+</robot>
