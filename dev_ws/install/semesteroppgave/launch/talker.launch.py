@@ -1,1 +1,0 @@
-/home/ros/Repos/Ros_ws/Ros_ws/dev_ws/src/semesteroppgave/launch/talker.launch.py

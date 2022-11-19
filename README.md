@@ -1,14 +1,7 @@
-# ROS_WS
+# ROS
 
-- [Notater](/Notater)
+- [/ROS links and notes](/ros_notes/)
 
+- [/Gazebo links and notes](/gazebo_notes/)
 
-
-
-gir opp  
-bruker ROS 2
-
-
-## ROS 2
-
-- [ROS2 notater](/ros2_notes/)
+- [/Machines folder](/Machines/)
