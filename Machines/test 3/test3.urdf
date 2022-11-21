@@ -12,7 +12,8 @@
         <visual>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>
+                <box size="1.0 1.0 1.0"/>
+                <!--<mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>-->
             </geometry>
             <material name="">
                 <color rgba="1.0 0.0 0.0 1.0"/>
@@ -22,7 +23,8 @@
         <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>
+                <box size="1.0 1.0 1.0"/>
+                <!--<mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>-->
             </geometry>
         </collision>
         <inertial>
@@ -41,7 +43,7 @@
         <visual name="">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="0.0 0.0 0.0"/>
+                <box size="1.0 1.0 1.0"/>
             </geometry>
             <material name="">
                 <color rgba="1.0 0.0 0.0 1.0"/>
@@ -51,7 +53,7 @@
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="0.0 0.0 0.0"/>
+                <box size="1.0 1.0 1.0"/>
             </geometry>
         </collision>
     </link>
