@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info
+writing ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/PKG-INFO
+writing dependency_links to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/dependency_links.txt
+writing entry points to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/entry_points.txt
+writing requirements to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/requires.txt
+writing top-level names to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/top_level.txt
+writing manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+reading manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+writing manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build
+creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib
+creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1
+copying attemptOfPackgage1/__init__.py -> /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1
+running install
+running install_lib
+creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1
+copying /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1/__init__.py -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1
+byte-compiling /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index
+creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index
+creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index/packages
+copying resource/attemptOfPackgage1 -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/attemptOfPackgage1
+running install_egg_info
+Copying ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info to /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/install.log'

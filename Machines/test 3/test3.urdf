@@ -1,17 +1,21 @@
-<<?xml version="1.0"?>
-<<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test-bot">
-    <<link name="boat">
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test-bot">
+    <link name="boat">
         <visual>
-            
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>
+            </geometry>
         </visual>
         <collision>
-            
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>
+            </geometry>
         </collision>
         <inertial>
             <mass value="27.0"/>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </inertial>
-        <parent link="parent_link"/>
-        <child link="child_link"/>
-        
     </link>
 </robot>

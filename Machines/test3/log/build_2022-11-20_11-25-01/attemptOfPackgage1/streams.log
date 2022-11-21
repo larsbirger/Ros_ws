@@ -1,0 +1,33 @@
+[0.650s] Invoking command in '/home/ros/Repos/Ros_ws/Machines/test 3/src/attemptOfPackgage1': PYTHONPATH=/home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/prefix_override:/home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/attemptOfPackgage1 build --build-base /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build install --record /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/install.log --install-scripts $base/lib/attemptOfPackgage1 --single-version-externally-managed
+[0.876s] running egg_info
+[0.876s] creating ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info
+[0.876s] writing ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/entry_points.txt
+[0.877s] writing requirements to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/requires.txt
+[0.877s] writing top-level names to ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/top_level.txt
+[0.879s] writing manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+[0.909s] reading manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.911s] creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build
+[0.911s] creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib
+[0.911s] creating /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1
+[0.911s] copying attemptOfPackgage1/__init__.py -> /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1
+[0.911s] running install
+[0.912s] running install_lib
+[0.913s] creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1
+[0.913s] copying /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build/lib/attemptOfPackgage1/__init__.py -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1
+[0.914s] byte-compiling /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1/__init__.py to __init__.cpython-38.pyc
+[0.915s] running install_data
+[0.915s] creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index
+[0.916s] creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index
+[0.916s] creating /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index/packages
+[0.916s] copying resource/attemptOfPackgage1 -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/ament_index/resource_index/packages
+[0.916s] copying package.xml -> /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/share/attemptOfPackgage1
+[0.917s] running install_egg_info
+[0.917s] Copying ../../build/attemptOfPackgage1/attemptOfPackgage1.egg-info to /home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages/attemptOfPackgage1-0.0.0-py3.8.egg-info
+[0.918s] running install_scripts
+[0.934s] writing list of installed files to '/home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/install.log'
+[0.957s] Invoked command in '/home/ros/Repos/Ros_ws/Machines/test 3/src/attemptOfPackgage1' returned '0': PYTHONPATH=/home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/prefix_override:/home/ros/Repos/Ros_ws/Machines/test 3/install/attemptOfPackgage1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/attemptOfPackgage1 build --build-base /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/build install --record /home/ros/Repos/Ros_ws/Machines/test 3/build/attemptOfPackgage1/install.log --install-scripts $base/lib/attemptOfPackgage1 --single-version-externally-managed
