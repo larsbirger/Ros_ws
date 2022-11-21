@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test-bot">
+
+    <xacro:include filename="$(materials.xacro)/"/>
+    
+    <link name="map"></link>
+
+    <!--robot boat frame-->
+    <joint name="boat_joint" type="revolute">
+        <parent link="map"/>
+        <child link="boat_link"/>
+        <axis xyz="0 0 0"/>
+        <limit lower="-3.14159" upper="3.14159" velocity="50.0" effort="1000.0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    
+    <link name="boat_link">
+        <inertial>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <mass value="0.0"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="1.0 1.0 1.0"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
