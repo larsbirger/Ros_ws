@@ -1,40 +1,18 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test-bot">
 
-    <!--world global frame-->
-    <link name="world"/>
-
-
-
+    <link name="map"></link>
 
     <!--robot boat frame-->
-    <link name="boat_joint">
-        <visual>
-            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-            <geometry>
-                <box size="1.0 1.0 1.0"/>
-                <!--<mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>-->
-            </geometry>
-            <material name="">
-                <color rgba="1.0 0.0 0.0 1.0"/>
-                <!--<texture filename=""/>-->
-            </material>
-        </visual>
-        <collision>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-            <geometry>
-                <box size="1.0 1.0 1.0"/>
-                <!--<mesh filename="stl/Part Studio - båt.stl" scale="1.0"/>-->
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="27.0"/>
-            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-        </inertial>
-    </link>
+    <joint name="boat_joint" type="revolute">
+        <parent link="map"/>
+        <child link="boat_link"/>
+        <axis xyz="0 0 0"/>
+        <limit lower="-3.14159" upper="3.14159" velocity="50.0" effort="1000.0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
 
-    <!--robot arm base frame-->
-    <link name="base_frame">
+    <link name="boat_link">
         <inertial>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <mass value="0.0"/>
@@ -43,7 +21,7 @@
         <visual name="">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="1.0 1.0 1.0"/>
+                <box size="0.0 0.0 0.0"/>
             </geometry>
             <material name="">
                 <color rgba="1.0 0.0 0.0 1.0"/>
@@ -57,4 +35,6 @@
             </geometry>
         </collision>
     </link>
+
+
 </robot>
