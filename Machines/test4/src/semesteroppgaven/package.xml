@@ -5,15 +5,12 @@
   <version>0.0.0</version>
   <description>semesteroppgaven for ELE306-h22 på HVL</description>
   <maintainer email="larsbirger.bergmaal@gmail.com">Lars Birger Bergmål</maintainer>
-  <license>TODO: License declaration</license>
+  <license>CC BY-SA 4.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
-
-  <exec_depend></exec_depend>
-  <exec_depend></exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
